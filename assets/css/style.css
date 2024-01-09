@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 18px;
+}
+
+/* My name and links down to page container*/
+.header {
+    padding: 30px;
+    padding-bottom: 10px; 
+    background-color: green;
+    color: black;
+}
+
+/* My name */
+.title {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;    
+    background-color: white;
+    font-size: 70px;
+    border-radius: 50px;
+}
+
+/* Image */
+img {
+    width: 110px;
+    border-radius: 20px;
+    margin-top: 10px;    
+}
+
+.header h2 {
+    float: right;   
+}
+
+/* Links containers - to keep in the header container*/
+.header div {
+    display: flex;
+    justify-content: flex-end;            
+}
+
+/* Links to corresponding sections on the page */
+.linksBox {
+    float: right;
+    padding-bottom: 10px;
+    margin-right: 10px;     
+}
+
+.linksBox li {
+    border-radius: 50px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: white;      
+}
+
+/* Links hover effect */
+.linksBox li:hover {
+    background-color: rgb(1, 44, 17); 
+    .link {
+        color: white;
+    }
+}
+
+/* Box that holds My Portfoliio header and all the content */
+.content {
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 50px;
+    padding: 15px;
+    padding-bottom: flex;
+    margin-left: 250px;
+    background-color: rgb(223, 221, 221);
+}
+
+/* "My portfolio" box */
+.portfolio {
+    justify-content: flex-start;
+    font-size: 35px;
+    border: 10px;
+    border-bottom: 10px solid;
+    padding-bottom: 10px;
+}
+
+/* Content section box */
+.content ul {
+    background-color: rgb(214, 200, 178);
+    border-bottom-left-radius: 50px;
+    padding-bottom: 40px;
+}
+
+/* Section headers */
+.content ul li h4 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Content paragraph */
+.content ul p {
+    margin-left: 20px;
+}
+
