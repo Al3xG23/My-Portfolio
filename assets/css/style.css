@@ -86,7 +86,7 @@ img {
 /* "My portfolio" box */
 .portfolio {
     justify-content: flex-start;
-    font-size: 35px;
+    font-size: 75px;
     border: 10px;
     border-bottom: 10px solid;
     padding-bottom: 10px;
@@ -101,8 +101,12 @@ img {
 
 /* Section headers */
 .content ul li h4 {
-    padding: 10px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 55px;
+    margin: 50px;
+    margin-bottom: 30px;
+    display: block;
+    border: 5px solid;
 }
 
 /* Content paragraph */
@@ -113,4 +117,33 @@ img {
 .deployed {
     display: block;
     margin-left: 20px;    
+}
+
+.large {
+    display:flex;
+    border: 5px solid;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.small {
+    display: flex;
+    border: 5px solid;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.deployed li:hover {
+    .large {
+        background-color: rgb(1, 44, 17);
+        color: white;
+    }
+    .small {
+        background-color: rgb(1, 44, 17);
+        color: white;
+    }
 }
