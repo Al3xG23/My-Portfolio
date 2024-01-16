@@ -5,6 +5,8 @@
 The purpose of my portfolio is to showcase my coding experience. 
 I created my portfolio to display links to my completed works and list my credentials to anyone who would look me up.
 
+![Alt text](image.png)
+https://al3xg23.github.io/My-Portfolio/
 <!-- ## Installation -->
 
 ## Usage
